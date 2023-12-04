@@ -1,0 +1,30 @@
+.student-table .ant-table-body table,
+.student-table .ant-table-header table{
+    margin: 0;
+}
+
+.student-actions{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.student-filters{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.student-filters button{
+    min-width: max-content;
+}
+
+.student-filters .MuiFormControl-root {
+    width: 250px;
+}
+
+.ant-notification-notice-icon svg {
+    fill: red;
+    width: 28px;
+    height: 28px;
+}

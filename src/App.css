@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-action {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.card-content {
+  flex-grow: 1;
+}
