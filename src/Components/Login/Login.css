@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px;
+  background: #fff;
+  padding-bottom: 30px;
+  width: 550px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.main {
+  color: #63cb77;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.underline {
+  width: 61px;
+  height: 6px;
+  background: #63cb77;
+  border-radius: 9px;
+}
+
+.inputs {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 400px;
+  height: 70px;
+  border-radius: 6px;
+}
+
+.text {
+  height: 50px;
+  width: 400px;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 27px;
+  color: #797979;
+  font-size: 17px;
+}
+
+.forgot-password span {
+  color: #4c00b4;
+  cursor: pointer;
+}
+.forgotpassword-container{
+  flex-direction: column;
+}
+.submit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px auto 40px;
+}
+
+.MuiFormHelperText-root {
+  color: red !important;
+}
+
+.icon-button {
+  color: #63cb77 !important;
+}
+
+.two-feilds{
+  display: flex;
+    gap: 16px;
+    margin: 16px;
+}

@@ -1,0 +1,55 @@
+.main-container{
+    position: relative;
+}
+
+
+.student-profile .card-shadow {
+    border-radius: 10px;
+    background: #ffd9cc;
+}
+
+.student-profile .card-shadow.profile{
+    /* border-radius: 50%; */
+}
+
+.student-profile .card-shadow .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+.student-profile .card-shadow h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.student-profile .card-shadow h3 svg{
+   width: 36px;
+   height: 36px;
+}
+
+.student-profile .card-shadow p {
+    font-size: 16px;
+    color: #000;
+}
+.student-profile .table {
+    border-radius: 5px;
+}
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 8px 10px;
+    color: #000;
+}
+.student-profile .table th,
+.student-profile .table td
+{
+    background-color: white;
+}
+
+.student-info div table{
+    margin-bottom: 0 !important;
+}
